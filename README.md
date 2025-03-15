@@ -2,7 +2,7 @@ Good day!
 
 This project was built by me during my media design studies and helped me to understand the connection between HTML, CSS and JavaScript. 
 
-The gameplay is very simple and probably boring to play after 2 minutes. But as a uni project it served me wonderfully. 
+The gameplay is very simple and probably boring to play after 2 minutes. But as a uni project it served me wonderfully. There is no responsive version for mobile phones yet, but I will try to update that soon!
 
 How to play:
 Catch the apples for 10 points each. 
