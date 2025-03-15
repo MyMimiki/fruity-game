@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruity!</title>
+    <link rel="stylesheet" href="fruity.css">
+    <script src="fruity.js"></script>
+</head>
+
+    <body onload="CatchTheApples()">
+    <header>
+            <h1>An apple a day <br>keeps the game over away!</h1>    
+    </header>
+
+    <main> 
+        <canvas id="canvas" width="720" height="480"></canvas>
+        <div id="startGameDiv">
+            <h3>Ready to bite?</h3>
+            <button id="startGameButton" onclick="startGame()">start game</button>
+        </div>
+        <div id="gameOverDiv">
+            <h3 >GAME OVER!</h3>
+            <button id="newGameButton" onclick="restartGame()">new game</button>
+        </div>
+        <div id="score" >Score: <span id="scoreSpan">0</span></div>    
+    </main>
+
+    </body>
+</html>
